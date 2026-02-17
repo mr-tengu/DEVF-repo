@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundamentos de HMTL</title>
 </head>
-<body>   
-    <h1>Hola mundo</h1>
-    <h2>Este es mi primer archivo HTML</h2>
-    <h3>Este es un encabezado de nivel 3</h3>
-    <h4>Este es un encabezado de nivel 4</h4>
-    <h5>Este es un encabezado de nivel 5</h5>
-    <h6>Este es un encabezado de nivel 6</h6>
-    <p>Este es un parrafo de prueba</p>
-    <ul>
-        <p>Ejemplo de lista</p>
-        <li> Elemento de la lista 1</li>
-        <li> Elemento de la lista 2</li>
-        <li> Elemento de la lista 3</li>
-    </ul>
-    <p>Pero que pasa estamos probando las actualizaciones</p>
-    Nueva update
+<body> 
+    <header>
+        <h1>Fundamentos de HTML</h1>
+        <h2>¿Qué es HTML?</h2>
+        <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Utiliza etiquetas para estructurar y presentar contenido en navegadores.</p>
+        <p>Pero que pasa estamos probando las actualizaciones
+        <nav>
+            <ul>
+                <li><a href="#anatomia">Elementos</a></li>
+                <li><a href="#contenido">Contenido</a></li>
+                <li><a href="#semantico">Semantico</a></li>
+                <li><a href="#contenedores">Div vs Span</a></li>
+                <li><a href="#formularios">Formularios</a></li>
+                <li><a href="#practicas">Practicas</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <section>
+            <h2 id="anatomia">Anatomía de un elemento HTML</h2>
+            <p>Un elemento HTML consta de una etiqueta de apertura, contenido y una etiqueta de cierre. Por ejemplo:</p>
+            <strong>
+                <pre><code>&lt;h1&gt;Título Principal&lt;/h1&gt;</code></pre>
+            </strong>
+            <p>En este caso,<strong><code>&lt;h1&gt;</code></strong> es la etiqueta de apertura, "Título Principal" es el contenido y <code>&lt;/h1&gt;</code> es la etiqueta de cierre.</p>
+        </section>
+        <div class="tip">
+            Los atributos son parte de la etiqueta de apertura y proporcionan información adicional sobre el elemento. 
+            Por ejemplo, en el siguiente código, el atributo "class" se utiliza para asignar una clase CSS al elemento <strong><code>&lt;div&gt;</code></strong>
+        </div>
+
+        <section>
+            <h2 id="contenido">Contenido de un elemento HTML</h2>
+            <p>El contenido de un elemento HTML puede ser texto, otros elementos HTML o una combinación de ambos. Por ejemplo:</p>
+            <strong>
+                <pre><code>&lt;div&gt;</code></pre>
+        </section>
+    </main>
 </body>
 </html>
