@@ -1,0 +1,19 @@
+.tip{
+    background-color: #236ed1;
+    color: #ffff;
+    border-left: 4px solid #4CAF50;
+    padding: 10px;
+    margin: 20px 0;
+}
+.example_div{
+    background-color: #e92525;
+    border-left: 4px solid #f5f239;
+    padding: 10px;
+    margin: 20px 0;
+}
+.example_span{
+    background-color: #f02dd6;
+    border-left: 4px solid #e7911f;
+    padding: 10px;
+    margin: 20px 0;
+}

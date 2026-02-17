@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Fundamentos de HMTL</title>
 </head>
 <body> 
@@ -79,7 +80,50 @@
             <div class="tip">
                 El uso de etiquetas semánticas mejora la accesibilidad y el SEO de tu sitio web, ya que los motores de búsqueda y las tecnologías de asistencia pueden entender mejor la estructura y el contenido de tu página.
             </div>
+            <section id="contenedores">
+                <h2>Contenedores: Div vs Span</h2>
+                <hr>
+                <p><code>&lt;div&gt;</code> es un contenedor de bloque que se utiliza para agrupar elementos y aplicar estilos o scripts a un bloque completo. Por ejemplo:</p>
+                <div class="example_div"><pre><code>&lt;div class="container"&gt;</div> fuera de div
+                <p><code>&lt;span&gt;</code> es un contenedor en línea que se utiliza para agrupar elementos de texto y aplicar estilos o scripts a un fragmento específico de texto. Por ejemplo:</p>
+                <div class="example_span"><pre><code>&lt;span class="highlight"&gt;Texto resaltado&lt;/span&gt;</code></pre></div> fuera de span
+                <p>En este caso, el texto "Texto resaltado" estará resaltado debido a la clase "highlight".</p>
+            </section>
+            <section id="formularios">
+                <h2>Formularios</h2>
+                <hr>
+                <p>Los formularios en HTML se utilizan para recopilar información del usuario. Un formulario básico puede incluir campos de texto, botones de radio, casillas de verificación y un botón de envío. Por ejemplo:</p>
+                <form action="/submit" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <label for="birthdate">Fecha de nacimiento:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                    <br>
+                    <button>Enviar</button>
+                </form>
+            </section>
+            <section>
+                <h2>Prácticas recomendadas</h2>
+                <hr>
+                <ul>
+                    <li>Utiliza etiquetas semánticas para mejorar la accesibilidad y el SEO.</li>
+                    <li>Agrega atributos alt a las imágenes para describir su contenido.</li>
+                    <li>Usa enlaces descriptivos para mejorar la navegación.</li>
+                    <li>Organiza tu código con indentación y comentarios para facilitar su lectura.</li>
+                    <li>Valida tu código HTML para asegurarte de que cumple con los estándares web.</li>
+                </ul>
+            </section>
         </section>
     </main>
+    <footer>
+       <center> <p>&copy; 2024 Fundamentos de HTML. Todos los derechos reservados.</p></center>
+    </footer>
 </body>
 </html>
