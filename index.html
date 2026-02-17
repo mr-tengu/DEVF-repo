@@ -23,8 +23,9 @@
         </nav>
     </header>  
     <main>
-        <section>
-            <h2 id="anatomia">Anatomía de un elemento HTML</h2>
+        <section id="anatomia">
+            <h2>Anatomía de un elemento HTML</h2>
+            <hr>
             <p>Un elemento HTML consta de una etiqueta de apertura, contenido y una etiqueta de cierre. Por ejemplo:</p>
             <strong>
                 <pre><code>&lt;h1&gt;Título Principal&lt;/h1&gt;</code></pre>
@@ -36,13 +37,48 @@
             Por ejemplo, en el siguiente código, el atributo <strong>class="nota"</strong> se utiliza para asignar una clase CSS al elemento <strong><code>&lt;div&gt;</code></strong>
         </div>
 
-        <section>
-            <h2 id="contenido">Contenido de un elemento HTML</h2>
+        <section id="contenido">
+            <h2>Contenido de un elemento HTML</h2>
+            <hr>
             <p>El contenido de un elemento HTML puede ser texto, otros elementos HTML o una combinación de ambos. Por ejemplo:</p>
             
             <h3>Enlaces</h3>
-            <a href="https://www.google.com">Esto es un enlace externo</a>    
-
+            <a href="https://www.google.com">Esto es un enlace externo</a>
+            <br>
+            <a href="#anatomia">Esto es un enlace interno</a>
+            <br>
+            <a href="otro.html">Este es un enlace a otro archivo html que esta en la misma carpeta</a>
+            <h3>Imagen accesible</h3>
+            <img src="./img/bob.jpg" alt="Bob Esponja" width="200">
+            <h3>Listas</h3>
+            <ol>
+                <li>Primer elemento</li>
+                <li>Segundo elemento</li>
+                <li>Tercer elemento</li>
+            </ol>
+            <ul>
+                <li>Elemento A</li>
+                <li>Elemento B</li>
+                <li>Elemento C</li>
+            </ul>
+        </section>
+        <section id="semantico">
+            <h2>HTML Semántico</h2>
+            <hr>
+            <p>HTML semántico utiliza etiquetas que describen claramente el propósito del contenido. Ejemplos de etiquetas semánticas incluyen <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, y <code>&lt;footer&gt;</code>.</p>
+            <h3>Ejemplos de etiquetas semánticas</h3>
+            <ul>
+                <li><code>&lt;header&gt;</code>: Define el encabezado de una página o sección.</li>
+                <li><code>&lt;nav&gt;</code>: Define un bloque de navegación.</li>
+                <li><code>&lt;main&gt;</code>: Define el contenido principal de un documento.</li>
+                <li><code>&lt;section&gt;</code>: Define una sección genérica de un documento.</li>
+                <li><code>&lt;article&gt;</code>: Define un artículo independiente en un documento.</li>
+                <li><code>&lt;aside&gt;</code>: Define contenido relacionado pero separado del contenido principal.</li>
+                <li><code>&lt;footer&gt;</code>: Define el pie de página de una página o sección.</li>
+            </ul>
+            <div class="tip">
+                El uso de etiquetas semánticas mejora la accesibilidad y el SEO de tu sitio web, ya que los motores de búsqueda y las tecnologías de asistencia pueden entender mejor la estructura y el contenido de tu página.
+            </div>
         </section>
     </main>
 </body>
